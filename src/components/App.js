@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <About/>
-      <ArticleList posts/>
+      <ArticleList posts={blogData.posts}/>
      
     </div>
   );
